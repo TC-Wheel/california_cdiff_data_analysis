@@ -1,0 +1,7 @@
+Year,State,HAI ,Facility_Name ,FACID,County,Hospital_Onset_Cases,Patient_Days,Hospital_Onset_Rate,95%_Confidence_Interval_Lower_Limit,95%_Confidence_Interval_Upper_Limit,PCR ,Notes
+2013,California,Clostridium difficile Infection (CDI),"Ballard Rehabilitation Hospital, San Bernardino",240001218,San Bernardino,25,15151,16.5,10.68,24.36,Used PCR,
+2013,California,Clostridium difficile Infection (CDI),"Casa Colina Hospital for Rehabilitative Medicine, Pomona",930000020,Los Angeles,,,,,,.,"+ Incomplete Reporter, see data dictionary"
+2013,California,Clostridium difficile Infection (CDI),Healthsouth Bakersfield Rehabilitation Hospital,120000555,Kern,7,20835,3.36,1.35,6.92,Used PCR,
+2013,California,Clostridium difficile Infection (CDI),Healthsouth Tustin Rehabilitation Hospital,060001097,Orange,5,15500,3.23,1.05,7.53,Used PCR,
+2013,California,Clostridium difficile Infection (CDI),"San Joaquin Valley Rehab Hospital, Fresno",040000613,Fresno,1,18230,0.55,0.01,3.06,No,
+2013,California,Clostridium difficile Infection (CDI),"The General Hospital, Eureka",110000069,Humboldt,1,2547,3.93,0.1,21.88,Used PCR,

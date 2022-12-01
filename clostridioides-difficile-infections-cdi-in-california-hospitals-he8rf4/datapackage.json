@@ -1,0 +1,1603 @@
+{
+  "accrual_periodicity": "annually",
+  "additional_limitations": "",
+  "citation": "Division of Healthcare Quality Promotion, National Center for Emerging and Zoonotic Infectious Diseases, Centers for Disease Control and Prevention [Distributor: Healthcare-Associated Infections Program, California Department of Public Health].",
+  "contact_email": "opendata@cdph.ca.gov",
+  "data_collection_tool": "National Healthcare Safety Network (NHSN): http://www.cdc.gov/nhsn/  \r\n\r\nCalifornia specific NHSN reporting guidelines: https://www.cdph.ca.gov/Programs/CHCQ/HAI/Pages/CA_SpecificReportingGuidelines.aspx",
+  "data_license": "Terms of Use",
+  "de_identification_method": "See Healthcare-Associated Infections Report at https://www.cdph.ca.gov/Programs/CHCQ/HAI/Pages/HAIProgramHome.aspx ",
+  "description": "California Health and Safety Code section 1288.55(a)(1) requires general acute care hospitals to report all cases of Clostridioides difficile infections (CDI) identified in their facilities to the California Department of Public Health (CDPH). CDI data are submitted by hospitals to the Centers for Disease Control and Prevention (CDC) National Healthcare Safety Network (NHSN). \r\n\r\nCDPH downloads California hospital CDI data from NHSN and analyzes the data to describe prevention progress in an annual public report of healthcare-associated infections CDPH publishes annual CDI data reported by each California hospital in the datasets below. \r\n\r\nThe following datasets include the number of CDI reported by each California hospital in the specified reporting year. Beginning in 2016 for each California hospital, the annual CDI dataset includes the number of CDI that were predicted to occur in each hospital based on its specific facility-level characteristics. The observed (reported) number of CDI are then compared to the predicted number of CDI in a ratio called the Standardized Infection Ratio or SIR. The SIR is a metric that summarizes an individual hospital’s CDI prevention progress compared with the national baseline and California state-specific prevention goals. \r\n\r\nDetailed information about the variables included in each dataset are described in the accompanying data dictionaries for the year of interest.\r\n\r\nFor more information about the SIR and NHSN’s statistical models that are used to calculate the predicted number of CDI for each hospital, please review “NHSN’s Guide to the SIR”: https://www.cdc.gov/nhsn/ps-analysis-resources/index.html \r\n\r\nFor general information about NHSN, surveillance definitions, and reporting requirements for CDI, please visit: https://www.cdc.gov/nhsn/index.html \r\n\r\nTo link the CDPH facility IDs with those from other Departments, including HCAI, please reference the \"Licensed Facility Cross-Walk\" Open Data table at: https://data.chhs.ca.gov/dataset/licensed-facility-crosswalk.\r\n\r\nFor information about healthcare-associated infection prevention progress in California hospitals and statewide prevention goals, please visit: https://www.cdph.ca.gov/Programs/CHCQ/HAI/Pages/AnnualHAIReports.aspx",
+  "geo_coverage": "California",
+  "geographic_granularity": "county",
+  "keywords": [
+    "CDI",
+    "bacterial",
+    "clostridium difficile",
+    "cross infection",
+    "epidemiology",
+    "hai",
+    "healthcare",
+    "healthcare acquired infections",
+    "hospital",
+    "nosocomial infections",
+    "surveillance"
+  ],
+  "limitations": "Limitations",
+  "name": "clostridioides-difficile-infections-cdi-in-california-hospitals",
+  "program_web_page": "https://www.cdph.ca.gov/Programs/CHCQ/HAI/Pages/HAIProgramHome.aspx",
+  "related_resources": "",
+  "resources": [
+    {
+      "description": "This table shows the January through December 2021 hospital-onset Clostridioides difficile infections (CDI) data reported by California hospitals to the Centers for Disease Control and Prevention National Healthcare Safety Network (NHSN). Data were downloaded from NHSN on March 28, 2022.",
+      "format": "CSV",
+      "hash": "b7932193f497dc560bc0d2a0d1330cb7",
+      "name": "cdis-in-hospitals-2021",
+      "path": "cdis-in-hospitals-2021.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string"
+          },
+          {
+            "name": "State",
+            "type": "string"
+          },
+          {
+            "name": "County",
+            "type": "string"
+          },
+          {
+            "name": "HAI",
+            "type": "string"
+          },
+          {
+            "name": "Facility_ID",
+            "type": "string"
+          },
+          {
+            "name": "Facility_Name",
+            "type": "string"
+          },
+          {
+            "name": "Hospital_Category_RiskAdjustment",
+            "type": "string"
+          },
+          {
+            "name": "Facility_Type",
+            "type": "string"
+          },
+          {
+            "name": "Infections_Reported",
+            "type": "string"
+          },
+          {
+            "name": "Infections_Predicted",
+            "type": "string"
+          },
+          {
+            "name": "Patient_Days",
+            "type": "string"
+          },
+          {
+            "name": "SIR",
+            "type": "string"
+          },
+          {
+            "name": "SIR_CI_95_Lower_Limit",
+            "type": "string"
+          },
+          {
+            "name": "SIR_CI_95_Upper_Limit",
+            "type": "string"
+          },
+          {
+            "name": "Comparison",
+            "type": "string"
+          },
+          {
+            "name": "Met_2020_Goal",
+            "type": "string"
+          },
+          {
+            "name": "SIR_2015",
+            "type": "string"
+          },
+          {
+            "name": "Months",
+            "type": "string"
+          },
+          {
+            "name": "Notes",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/430e3d9b-5129-4b2b-b466-c7819894817e/resource/a5a0c09e-8917-46eb-9f37-3e4f96dec40f/download/cdph_cdi_odp_2021.csv",
+          "title": "CDIs in Hospitals, 2021"
+        }
+      ],
+      "title": "CDIs in Hospitals, 2021"
+    },
+    {
+      "description": "CDIs in Hospitals, 2021 - Data Dictionary",
+      "format": "XLSX",
+      "hash": "6d9ab988e77e178da575f2fc8fbf115f",
+      "name": "cdis-in-hospitals-2021-data-dictionary",
+      "path": "cdis-in-hospitals-2021-data-dictionary.xlsx",
+      "schema": {
+        "fields": [
+          {
+            "name": "Field",
+            "type": "string"
+          },
+          {
+            "name": "Format",
+            "type": "string"
+          },
+          {
+            "name": "Definition",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/430e3d9b-5129-4b2b-b466-c7819894817e/resource/e192eac6-c00d-4527-9a23-636b29266a2b/download/cdph_cdi_datadictionary_2021.xlsx",
+          "title": "CDIs in Hospitals, 2021 - Data Dictionary"
+        }
+      ],
+      "title": "CDIs in Hospitals, 2021 - Data Dictionary"
+    },
+    {
+      "description": "This table shows the January through June 2020 hospital-onset Clostridioides difficile infections (CDI) data reported by California hospitals to the Centers for Disease Control and Prevention National Healthcare Safety Network (NHSN). Data were downloaded from NHSN on April 1, 2021.",
+      "format": "CSV",
+      "hash": "e987b7650c83594dc0d2c27e6e39eff3",
+      "name": "cdis-in-january-through-june-2020-updated-annually",
+      "path": "cdis-in-january-through-june-2020-updated-annually.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string"
+          },
+          {
+            "name": "State",
+            "type": "string"
+          },
+          {
+            "name": "County",
+            "type": "string"
+          },
+          {
+            "name": "HAI",
+            "type": "string"
+          },
+          {
+            "name": "Facility_ID",
+            "type": "number"
+          },
+          {
+            "name": "Facility_Name",
+            "type": "string"
+          },
+          {
+            "name": "Hospital_Category_RiskAdjustment",
+            "type": "string"
+          },
+          {
+            "name": "Facility_Type",
+            "type": "string"
+          },
+          {
+            "name": "Infections_Reported",
+            "type": "number"
+          },
+          {
+            "name": "Infections_Predicted",
+            "type": "number"
+          },
+          {
+            "name": "Patient_Days",
+            "type": "number"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/430e3d9b-5129-4b2b-b466-c7819894817e/resource/a493de7c-2f3d-4cb2-b5e5-51c125394c81/download/cdph_cdi_odp_2020h1.csv",
+          "title": "CDIs in January through June 2020 (updated annually)"
+        }
+      ],
+      "title": "CDIs in January through June 2020 (updated annually)"
+    },
+    {
+      "description": "This table shows the July through December 2020 hospital-onset Clostridioides difficile infections (CDI) data reported by California hospitals to the Centers for Disease Control and Prevention National Healthcare Safety Network (NHSN). Data were downloaded from NHSN on April 1, 2021.",
+      "format": "CSV",
+      "hash": "b7732396211588762d7ddc589c778d3a",
+      "name": "cdis-in-july-through-december-2020-updated-annually",
+      "path": "cdis-in-july-through-december-2020-updated-annually.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string"
+          },
+          {
+            "name": "State",
+            "type": "string"
+          },
+          {
+            "name": "County",
+            "type": "string"
+          },
+          {
+            "name": "HAI",
+            "type": "string"
+          },
+          {
+            "name": "Facility_ID",
+            "type": "string"
+          },
+          {
+            "name": "Facility_Name",
+            "type": "string"
+          },
+          {
+            "name": "Hospital_Category_RiskAdjustment",
+            "type": "string"
+          },
+          {
+            "name": "Facility_Type",
+            "type": "string"
+          },
+          {
+            "name": "Infections_Reported",
+            "type": "string"
+          },
+          {
+            "name": "Infections_Predicted",
+            "type": "string"
+          },
+          {
+            "name": "Patient_Days",
+            "type": "string"
+          },
+          {
+            "name": "SIR",
+            "type": "string"
+          },
+          {
+            "name": "SIR_CI_95_Lower_Limit",
+            "type": "string"
+          },
+          {
+            "name": "SIR_CI_95_Upper_Limit",
+            "type": "string"
+          },
+          {
+            "name": "Comparison",
+            "type": "string"
+          },
+          {
+            "name": "Months",
+            "type": "string"
+          },
+          {
+            "name": "Notes",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/430e3d9b-5129-4b2b-b466-c7819894817e/resource/1efe4937-350b-468d-b2a0-c50d134b36eb/download/cdph_cdi_odp_2020h2.csv",
+          "title": "CDIs in July through December 2020 (updated annually)"
+        }
+      ],
+      "title": "CDIs in July through December 2020 (updated annually)"
+    },
+    {
+      "description": "CDIs-Data Dictionary, January to June 2020",
+      "format": "XLSX",
+      "hash": "921f68aefc73b672212fb393695985c6",
+      "name": "cdis-data-dictionary-january-to-june-2020",
+      "path": "cdis-data-dictionary-january-to-june-2020.xlsx",
+      "schema": {
+        "fields": [
+          {
+            "name": "Field",
+            "type": "string"
+          },
+          {
+            "name": "Format",
+            "type": "string"
+          },
+          {
+            "name": "Definition",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/430e3d9b-5129-4b2b-b466-c7819894817e/resource/d6f41a07-e90d-4cb7-ac8d-9865b66ff670/download/cdph_cdi_datadictionary_2020h1.xlsx",
+          "title": "CDIs-Data Dictionary, January to June 2020"
+        }
+      ],
+      "title": "CDIs-Data Dictionary, January to June 2020"
+    },
+    {
+      "description": "CDIs-Data Dictionary, July to December 2020",
+      "format": "XLSX",
+      "hash": "624f1a8b84cc95a2a8fe2879154a933a",
+      "name": "cdis-data-dictionary-july-to-december-2020",
+      "path": "cdis-data-dictionary-july-to-december-2020.xlsx",
+      "schema": {
+        "fields": [
+          {
+            "name": "Field",
+            "type": "string"
+          },
+          {
+            "name": "Format",
+            "type": "string"
+          },
+          {
+            "name": "Definition",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/430e3d9b-5129-4b2b-b466-c7819894817e/resource/34b06791-9233-43b7-b0b6-bc66385526f1/download/cdph_cdi_datadictionary_2020h2.xlsx",
+          "title": "CDIs-Data Dictionary, July to December 2020"
+        }
+      ],
+      "title": "CDIs-Data Dictionary, July to December 2020"
+    },
+    {
+      "description": "This table shows the 2019 hospital-onset Clostridioides difficile infections (CDI) data reported by California hospitals to the Centers for Disease Control and Prevention National Healthcare Safety Network (NHSN). Data were downloaded from NHSN on February 24, 2020.",
+      "format": "CSV",
+      "hash": "b1f474f51a913a0509f4f12ed77e913e",
+      "name": "cdis-in-hospitals-2019",
+      "path": "cdis-in-hospitals-2019.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string"
+          },
+          {
+            "name": "State",
+            "type": "string"
+          },
+          {
+            "name": "County",
+            "type": "string"
+          },
+          {
+            "name": "HAI",
+            "type": "string"
+          },
+          {
+            "name": "Facility_ID",
+            "type": "string"
+          },
+          {
+            "name": "Facility_Name",
+            "type": "string"
+          },
+          {
+            "name": "Hospital_Category_RiskAdjustment",
+            "type": "string"
+          },
+          {
+            "name": "Facility_Type",
+            "type": "string"
+          },
+          {
+            "name": "Infections_Reported",
+            "type": "string"
+          },
+          {
+            "name": "Infections_Predicted",
+            "type": "string"
+          },
+          {
+            "name": "Patient_Days",
+            "type": "string"
+          },
+          {
+            "name": "SIR",
+            "type": "string"
+          },
+          {
+            "name": "SIR_CI_95_Lower_Limit",
+            "type": "string"
+          },
+          {
+            "name": "SIR_CI_95_Upper_Limit",
+            "type": "string"
+          },
+          {
+            "name": "Comparison",
+            "type": "string"
+          },
+          {
+            "name": "On_Track",
+            "type": "string"
+          },
+          {
+            "name": "Months",
+            "type": "string"
+          },
+          {
+            "name": "SIR_2015",
+            "type": "string"
+          },
+          {
+            "name": "Notes",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/430e3d9b-5129-4b2b-b466-c7819894817e/resource/d42b9d08-6548-4276-93fe-2cf320c2a10f/download/cdph_cdi_odp_2019.csv",
+          "title": "CDIs in Hospitals, 2019"
+        }
+      ],
+      "title": "CDIs in Hospitals, 2019"
+    },
+    {
+      "description": "Data dictionary for CDIs in California Hospitals, 2019\r\n\r\n",
+      "format": "XLS",
+      "hash": "88c926176180b49c5fb76ab1615858fc",
+      "name": "cdis-data-dictionary-2019",
+      "path": "cdis-data-dictionary-2019.xls",
+      "schema": {
+        "fields": [
+          {
+            "name": "Field",
+            "type": "string"
+          },
+          {
+            "name": "Format",
+            "type": "string"
+          },
+          {
+            "name": "Definition",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/430e3d9b-5129-4b2b-b466-c7819894817e/resource/e6fd5129-0075-45d2-b382-be480e565577/download/cdi-sir-2019-datadictionary-ca-cdph.xlsx",
+          "title": "CDIs-Data Dictionary, 2019"
+        }
+      ],
+      "title": "CDIs-Data Dictionary, 2019"
+    },
+    {
+      "description": "This table has data regarding Clostridioides difficile infections reported by California hospitals to the Centers for Disease Control and Prevention National Healthcare Safety Network (NHSN). Data downloaded on February, 27 2019.",
+      "format": "CSV",
+      "hash": "3c3f9a6a73b9c0ac2e9085bc9037ea25",
+      "name": "cdis-in-hospitals-2018",
+      "path": "cdis-in-hospitals-2018.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string"
+          },
+          {
+            "name": "State",
+            "type": "string"
+          },
+          {
+            "name": "HAI",
+            "type": "string"
+          },
+          {
+            "name": "Facility_ID",
+            "type": "string"
+          },
+          {
+            "name": "Facility_Name",
+            "type": "string"
+          },
+          {
+            "name": "County",
+            "type": "string"
+          },
+          {
+            "name": "Hospital_Category_RiskAdjustment",
+            "type": "string"
+          },
+          {
+            "name": "Hospital_Type",
+            "type": "string"
+          },
+          {
+            "name": "Infections_Reported",
+            "type": "string"
+          },
+          {
+            "name": "Infections_Predicted",
+            "type": "string"
+          },
+          {
+            "name": "Patient_Days",
+            "type": "string"
+          },
+          {
+            "name": "SIR",
+            "type": "string"
+          },
+          {
+            "name": "SIR_CI_95_Lower_Limit",
+            "type": "string"
+          },
+          {
+            "name": "SIR_CI_95_Upper_Limit",
+            "type": "string"
+          },
+          {
+            "name": "Comparison",
+            "type": "string"
+          },
+          {
+            "name": "On_Track_Toward_2020_Goal (0.82, 2018)",
+            "type": "string"
+          },
+          {
+            "name": "Months",
+            "type": "string"
+          },
+          {
+            "name": "SIR_2015",
+            "type": "string"
+          },
+          {
+            "name": "Notes",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/430e3d9b-5129-4b2b-b466-c7819894817e/resource/4b85e99f-705b-471b-8e45-5c39b13b6135/download/cdph_cdi_odp_2018.csv",
+          "title": "CDIs in Hospitals, 2018"
+        }
+      ],
+      "title": "CDIs in Hospitals, 2018"
+    },
+    {
+      "description": "Data dictionary for CDIs in California Hospitals, 2018",
+      "format": "XLSX",
+      "hash": "e75f8d078255fd65f26271083c9384ae",
+      "name": "cdis-data-dictionary-2018",
+      "path": "cdis-data-dictionary-2018.xlsx",
+      "schema": {
+        "fields": [
+          {
+            "name": "Field",
+            "type": "string"
+          },
+          {
+            "name": "Format",
+            "type": "string"
+          },
+          {
+            "name": "Definition",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/430e3d9b-5129-4b2b-b466-c7819894817e/resource/7acc5b0f-68ad-4abd-88a7-c0955f30738e/download/cdi-sir-2018-datadictionary-ca-cdph.xlsx",
+          "title": "CDIs-Data Dictionary, 2018"
+        }
+      ],
+      "title": "CDIs-Data Dictionary, 2018"
+    },
+    {
+      "description": "This table shows the Center for Disease Control and Prevention National Healthcare Safety Network (NHSN) standardized infection ratios (SIR) of hospital onset (HO) Clostridium difficile infections (CDI) reported by California hospitals.",
+      "format": "CSV",
+      "hash": "948ffbb3150b37b76e47a9bd3d8a41c1",
+      "name": "cdis-in-hospitals-2017",
+      "path": "cdis-in-hospitals-2017.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string"
+          },
+          {
+            "name": "State",
+            "type": "string"
+          },
+          {
+            "name": "HAI",
+            "type": "string"
+          },
+          {
+            "name": "Facility_ID",
+            "type": "string"
+          },
+          {
+            "name": "Facility_Name",
+            "type": "string"
+          },
+          {
+            "name": "County",
+            "type": "string"
+          },
+          {
+            "name": "Hospital_Category_RiskAdjustment",
+            "type": "string"
+          },
+          {
+            "name": "Hospital_Type",
+            "type": "string"
+          },
+          {
+            "name": "Infections_Reported",
+            "type": "string"
+          },
+          {
+            "name": "Infections_Predicted",
+            "type": "string"
+          },
+          {
+            "name": "Patient_Days",
+            "type": "string"
+          },
+          {
+            "name": "SIR",
+            "type": "string"
+          },
+          {
+            "name": "SIR_CI_95_Lower_Limit",
+            "type": "string"
+          },
+          {
+            "name": "SIR_CI_95_Upper_Limit",
+            "type": "string"
+          },
+          {
+            "name": "Comparison",
+            "type": "string"
+          },
+          {
+            "name": "On_Track_Toward_2020_Goal (0.88, 2017)",
+            "type": "string"
+          },
+          {
+            "name": "Months",
+            "type": "string"
+          },
+          {
+            "name": "SIR_2015",
+            "type": "string"
+          },
+          {
+            "name": "Notes",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/430e3d9b-5129-4b2b-b466-c7819894817e/resource/acd16536-43b5-476f-8c26-d582d3bb62dc/download/cdi_2017_ca_cdph.csv",
+          "title": "CDIs in Hospitals, 2017"
+        }
+      ],
+      "title": "CDIs in Hospitals, 2017"
+    },
+    {
+      "description": "Data dictionary for CDIs, 2017",
+      "format": "XLSX",
+      "hash": "a4dfe1b00641614c7b5cce73160093cd",
+      "name": "cdis-data-dictionary-2017",
+      "path": "cdis-data-dictionary-2017.xlsx",
+      "schema": {
+        "fields": [
+          {
+            "name": "Field",
+            "type": "string"
+          },
+          {
+            "name": "Format",
+            "type": "string"
+          },
+          {
+            "name": "Definition",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/430e3d9b-5129-4b2b-b466-c7819894817e/resource/5e5dd4e0-474c-42e9-aa6b-bec644b5da50/download/cdi-sir-2017-datadictionary-ca-cdph.xlsx",
+          "title": "CDIs-Data Dictionary, 2017"
+        }
+      ],
+      "title": "CDIs-Data Dictionary, 2017"
+    },
+    {
+      "description": "This table shows the Center for Disease Control and Prevention National Healthcare Safety Network (NHSN) standardized infection ratios (SIR) of hospital onset (HO) Clostridium difficile infections (CDI) reported by California  hospitals.",
+      "format": "CSV",
+      "hash": "1cb649985a829f2933953d33d2c52503",
+      "name": "cdis-in-hospitals-2016",
+      "path": "cdis-in-hospitals-2016.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string"
+          },
+          {
+            "name": "State",
+            "type": "string"
+          },
+          {
+            "name": "HAI",
+            "type": "string"
+          },
+          {
+            "name": "Facility_ID",
+            "type": "string"
+          },
+          {
+            "name": "Facility_Name",
+            "type": "string"
+          },
+          {
+            "name": "County",
+            "type": "string"
+          },
+          {
+            "name": "Facility_Category",
+            "type": "string"
+          },
+          {
+            "name": "Facility_Type",
+            "type": "string"
+          },
+          {
+            "name": "Infections_Reported",
+            "type": "string"
+          },
+          {
+            "name": "Infections_Predicted",
+            "type": "string"
+          },
+          {
+            "name": "Patient_Days",
+            "type": "string"
+          },
+          {
+            "name": "SIR",
+            "type": "string"
+          },
+          {
+            "name": "SIR_CI_95_Lower_Limit",
+            "type": "string"
+          },
+          {
+            "name": "SIR_CI_95_Upper_Limit",
+            "type": "string"
+          },
+          {
+            "name": "Comparison",
+            "type": "string"
+          },
+          {
+            "name": "SIR_2015",
+            "type": "string"
+          },
+          {
+            "name": "Notes",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/430e3d9b-5129-4b2b-b466-c7819894817e/resource/d625b1a8-6acf-48f4-8ef7-4f990538682f/download/clostridium-difficile-infections-cdi-all-2016.csv",
+          "title": "CDIs in Hospitals, 2016"
+        }
+      ],
+      "title": "CDIs in Hospitals, 2016"
+    },
+    {
+      "description": "Data Dictionary for CDIs, 2016",
+      "format": "XLSX",
+      "hash": "6b1b15dcee672b5ec1b50b975622747a",
+      "name": "cdis-data-dictionary-2016",
+      "path": "cdis-data-dictionary-2016.xlsx",
+      "schema": {
+        "fields": [
+          {
+            "name": "Field",
+            "type": "string"
+          },
+          {
+            "name": "Format",
+            "type": "string"
+          },
+          {
+            "name": "Definition",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/430e3d9b-5129-4b2b-b466-c7819894817e/resource/33607a93-793b-4a14-a014-09f0adc3b85f/download/cdi-sir-2016-datadictionary.xlsx",
+          "title": "CDIs-Data Dictionary, 2016"
+        }
+      ],
+      "title": "CDIs-Data Dictionary, 2016"
+    },
+    {
+      "description": "This table shows the Center for Disease Control and Prevention National Healthcare Safety Network (NHSN) standardized infection ratios (SIR) of hospital onset (HO) Clostridium difficile infections (CDI) reported by California general acute care hospitals other than long-term and rehabilitation acute care hospitals. These data are in reference to original national baseline data collected by NHSN (i.e. Baseline 1). For information about Baseline 1 and the 2015 rebaseline for data 2016-present, please refer to https://www.cdc.gov/nhsn/2015rebaseline/index.html",
+      "format": "CSV",
+      "hash": "9ae300e5ab9ccc1c396ca15e5616276d",
+      "name": "cdis-in-hospitals-2015",
+      "path": "cdis-in-hospitals-2015.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string"
+          },
+          {
+            "name": "State",
+            "type": "string"
+          },
+          {
+            "name": "HAI",
+            "type": "string"
+          },
+          {
+            "name": "Facility_ID1",
+            "type": "string"
+          },
+          {
+            "name": "Facility_Name1",
+            "type": "string"
+          },
+          {
+            "name": "County",
+            "type": "string"
+          },
+          {
+            "name": "Hospital_Onset_Cases",
+            "type": "string"
+          },
+          {
+            "name": "Predicted_Cases",
+            "type": "string"
+          },
+          {
+            "name": "Patient_Days",
+            "type": "string"
+          },
+          {
+            "name": "SIR",
+            "type": "string"
+          },
+          {
+            "name": "SIR_CI_95_Lower_Limit",
+            "type": "string"
+          },
+          {
+            "name": "SIR_CI_95_Upper_Limit",
+            "type": "string"
+          },
+          {
+            "name": "Comparison",
+            "type": "string"
+          },
+          {
+            "name": "Notes",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/430e3d9b-5129-4b2b-b466-c7819894817e/resource/a93635ce-3493-4632-bbb3-c5a39c6689a6/download/clostridium-difficile-infections-cdi-in-hospitals-2015.csv",
+          "title": "CDIs in Hospitals, 2015"
+        }
+      ],
+      "title": "CDIs in Hospitals, 2015"
+    },
+    {
+      "description": "This table shows the Center for Disease Control and Prevention National Healthcare Safety Network (NHSN) standardized infection ratios (SIR) of hospital onset (HO) Clostridium difficile infections (CDI) reported by California general acute care hospitals other than long-term and rehabilitation acute care hospitals. These data are in reference to original national baseline data collected by NHSN (i.e. Baseline 1). For information about Baseline 1 and the 2015 rebaseline for data 2016-present, please refer to https://www.cdc.gov/nhsn/2015rebaseline/index.html",
+      "format": "CSV",
+      "hash": "1c940a7e1d06f82fd012e103ec0a3ddd",
+      "name": "cdis-in-hospitals-2014",
+      "path": "cdis-in-hospitals-2014.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string"
+          },
+          {
+            "name": "State",
+            "type": "string"
+          },
+          {
+            "name": "HAI",
+            "type": "string"
+          },
+          {
+            "name": "Facility_ID1",
+            "type": "string"
+          },
+          {
+            "name": "Facility_Name1",
+            "type": "string"
+          },
+          {
+            "name": "County",
+            "type": "string"
+          },
+          {
+            "name": "Hospital_Onset_Cases",
+            "type": "string"
+          },
+          {
+            "name": "Predicted_Cases",
+            "type": "string"
+          },
+          {
+            "name": "Patient_Days",
+            "type": "string"
+          },
+          {
+            "name": "SIR",
+            "type": "string"
+          },
+          {
+            "name": "SIR_CI_95_Lower_Limit",
+            "type": "string"
+          },
+          {
+            "name": "SIR_CI_95_Upper_Limit",
+            "type": "string"
+          },
+          {
+            "name": "Comparison",
+            "type": "string"
+          },
+          {
+            "name": "Notes",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/430e3d9b-5129-4b2b-b466-c7819894817e/resource/ca69ffd3-0c4f-493d-8216-0046a59118f2/download/clostridium-difficile-infections-cdi-in-hospitals-2014.csv",
+          "title": "CDIs in Hospitals, 2014"
+        }
+      ],
+      "title": "CDIs in Hospitals, 2014"
+    },
+    {
+      "description": "This table shows the Center for Disease Control and Prevention National Healthcare Safety Network (NHSN) standardized infection ratios (SIR) of hospital onset (HO) Clostridium difficile infections (CDI) reported by California general acute care hospitals other than long-term and rehabilitation acute care hospitals. These data are in reference to original national baseline data collected by NHSN (i.e. Baseline 1). For information about Baseline 1 and the 2015 rebaseline for data 2016-present, please refer to https://www.cdc.gov/nhsn/2015rebaseline/index.html",
+      "format": "CSV",
+      "hash": "5f55da9879729b86ad1841641c0223c0",
+      "name": "cdis-in-hospitals-2013",
+      "path": "cdis-in-hospitals-2013.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string"
+          },
+          {
+            "name": "State",
+            "type": "string"
+          },
+          {
+            "name": "HAI",
+            "type": "string"
+          },
+          {
+            "name": "Facility_Name1",
+            "type": "string"
+          },
+          {
+            "name": "Facility_Name2",
+            "type": "string"
+          },
+          {
+            "name": "Facility_Name3",
+            "type": "string"
+          },
+          {
+            "name": "FACID1",
+            "type": "string"
+          },
+          {
+            "name": "FACID2",
+            "type": "string"
+          },
+          {
+            "name": "FACID3",
+            "type": "string"
+          },
+          {
+            "name": "County",
+            "type": "string"
+          },
+          {
+            "name": "Hospital_Onset_Cases",
+            "type": "string"
+          },
+          {
+            "name": "Patient_Days",
+            "type": "string"
+          },
+          {
+            "name": "SIR",
+            "type": "string"
+          },
+          {
+            "name": "SIR_95%_CI_Lower_Limit",
+            "type": "string"
+          },
+          {
+            "name": "SIR_95%_CI_Upper_Limit",
+            "type": "string"
+          },
+          {
+            "name": "Comparison",
+            "type": "string"
+          },
+          {
+            "name": "Notes",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/430e3d9b-5129-4b2b-b466-c7819894817e/resource/162bb4a6-c6a1-4422-a54f-472477a9a7e7/download/clostridium-difficile-infections-cdi-in-hospitals-2013.csv",
+          "title": "CDIs in Hospitals, 2013"
+        }
+      ],
+      "title": "CDIs in Hospitals, 2013"
+    },
+    {
+      "description": "Data Dictionary for CDIs in Hospitals",
+      "format": "XLS",
+      "hash": "157b75ce735e2381476d6ebdaef164c7",
+      "name": "cdis-in-hospitals-data-dictionary-2013-2015",
+      "path": "cdis-in-hospitals-data-dictionary-2013-2015.xls",
+      "schema": {
+        "fields": [
+          {
+            "name": "Field",
+            "type": "string"
+          },
+          {
+            "name": "Format",
+            "type": "string"
+          },
+          {
+            "name": "Definition",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/430e3d9b-5129-4b2b-b466-c7819894817e/resource/a739f187-e33d-4bc5-a904-7c78b9e0efe6/download/clostridiumdifficileinfectionscdiinhospitals-dd.csv",
+          "title": "CDIs in Hospitals-Data Dictionary 2013-2015"
+        }
+      ],
+      "title": "CDIs in Hospitals-Data Dictionary 2013-2015"
+    },
+    {
+      "description": "This table shows the incidence rates of hospital onset Clostridium difficile infections (CDI) and use of polymerase chain reaction (PCR) reported by California free-standing rehabilitation acute care hospitals and rehabilitation units with their own Centers for Medicare and Medicaid Services certification number (CCN). ",
+      "format": "CSV",
+      "hash": "73713b828c9f6eefa8ec4133673fdbc2",
+      "name": "cdis-in-rehabs-2015",
+      "path": "cdis-in-rehabs-2015.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string"
+          },
+          {
+            "name": "State",
+            "type": "string"
+          },
+          {
+            "name": "HAI",
+            "type": "string"
+          },
+          {
+            "name": "Facility_ID1",
+            "type": "string"
+          },
+          {
+            "name": "Facility_Name1",
+            "type": "string"
+          },
+          {
+            "name": "County",
+            "type": "string"
+          },
+          {
+            "name": "Hospital_Onset_Cases",
+            "type": "string"
+          },
+          {
+            "name": "Patient_Days",
+            "type": "string"
+          },
+          {
+            "name": "Hospital_Onset_Rate",
+            "type": "string"
+          },
+          {
+            "name": "CI_95_Lower_Limit",
+            "type": "string"
+          },
+          {
+            "name": "CI_95_Upper_Limit",
+            "type": "string"
+          },
+          {
+            "name": "PCR",
+            "type": "string"
+          },
+          {
+            "name": "Notes",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/430e3d9b-5129-4b2b-b466-c7819894817e/resource/888c1740-e315-4397-97cf-c58e42927a9a/download/clostridium-difficile-infections-cdi-in-rehabilitation-facilities-2015.csv",
+          "title": "CDIs in REHABs, 2015"
+        }
+      ],
+      "title": "CDIs in REHABs, 2015"
+    },
+    {
+      "description": "This table shows the incidence rates of hospital onset Clostridium difficile infections (CDI) and use of polymerase chain reaction (PCR) reported by California free-standing rehabilitation acute care hospitals and rehabilitation units with their own Centers for Medicare and Medicaid Services certification number (CCN). ",
+      "format": "CSV",
+      "hash": "bd4eba418646faec45d3d65efed28857",
+      "name": "cdis-in-rehabs-2014",
+      "path": "cdis-in-rehabs-2014.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string"
+          },
+          {
+            "name": "State",
+            "type": "string"
+          },
+          {
+            "name": "HAI",
+            "type": "string"
+          },
+          {
+            "name": "Facility_ID1",
+            "type": "string"
+          },
+          {
+            "name": "Facility_Name1",
+            "type": "string"
+          },
+          {
+            "name": "County",
+            "type": "string"
+          },
+          {
+            "name": "Hospital_Onset_Cases",
+            "type": "string"
+          },
+          {
+            "name": "Patient_Days",
+            "type": "string"
+          },
+          {
+            "name": "Hospital_Onset_Rate",
+            "type": "string"
+          },
+          {
+            "name": "CI_95_Lower_Limit",
+            "type": "string"
+          },
+          {
+            "name": "CI_95_Upper_Limit",
+            "type": "string"
+          },
+          {
+            "name": "PCR",
+            "type": "string"
+          },
+          {
+            "name": "Notes",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/430e3d9b-5129-4b2b-b466-c7819894817e/resource/40c9af64-c7b8-4d3a-bfad-e0d25bb418bf/download/clostridium-difficile-infections-cdi-in-rehabilitation-facilities-2014.csv",
+          "title": "CDIs in REHABs, 2014"
+        }
+      ],
+      "title": "CDIs in REHABs, 2014"
+    },
+    {
+      "description": "This table shows the incidence rates of hospital onset Clostridium difficile infections (CDI) and use of polymerase chain reaction (PCR) reported by California free-standing rehabilitation acute care hospitals and rehabilitation units with their own Centers for Medicare and Medicaid Services certification number (CCN). ",
+      "format": "CSV",
+      "hash": "c8777518c2dd33d70582848080c04410",
+      "name": "cdis-in-rehabs-2013",
+      "path": "cdis-in-rehabs-2013.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string"
+          },
+          {
+            "name": "State",
+            "type": "string"
+          },
+          {
+            "name": "HAI",
+            "type": "string"
+          },
+          {
+            "name": "Facility_Name",
+            "type": "string"
+          },
+          {
+            "name": "FACID",
+            "type": "string"
+          },
+          {
+            "name": "County",
+            "type": "string"
+          },
+          {
+            "name": "Hospital_Onset_Cases",
+            "type": "string"
+          },
+          {
+            "name": "Patient_Days",
+            "type": "string"
+          },
+          {
+            "name": "Hospital_Onset_Rate",
+            "type": "string"
+          },
+          {
+            "name": "95%_Confidence_Interval_Lower_Limit",
+            "type": "string"
+          },
+          {
+            "name": "95%_Confidence_Interval_Upper_Limit",
+            "type": "string"
+          },
+          {
+            "name": "PCR",
+            "type": "string"
+          },
+          {
+            "name": "Notes",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/430e3d9b-5129-4b2b-b466-c7819894817e/resource/a53bff11-c905-4779-a61f-4008413e916c/download/clostridium-difficile-infections-cdi-in-rehabilitation-facilities-2013.csv",
+          "title": "CDIs in REHABs, 2013"
+        }
+      ],
+      "title": "CDIs in REHABs, 2013"
+    },
+    {
+      "description": "Data Dictionary for CDIs in REHABs",
+      "format": "XLS",
+      "hash": "ffaa03199d86b01a6e6b581c7b8b3c5c",
+      "name": "cdi-in-rehabs-data-dictionary-2013-2015",
+      "path": "cdi-in-rehabs-data-dictionary-2013-2015.xls",
+      "schema": {
+        "fields": [
+          {
+            "name": "Field",
+            "type": "string"
+          },
+          {
+            "name": "Format",
+            "type": "string"
+          },
+          {
+            "name": "Definition",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/430e3d9b-5129-4b2b-b466-c7819894817e/resource/19a6ff9c-1756-4928-b45d-b607046835cf/download/clostridiumdifficileinfectionscdiinrehabilitationfacilities-dd.xlsx",
+          "title": "CDI in REHABs-Data Dictionary 2013-2015"
+        }
+      ],
+      "title": "CDI in REHABs-Data Dictionary 2013-2015"
+    },
+    {
+      "description": "This table shows the incidence rates of hospital onset Clostridium difficile infections (CDI) and use of polymerase chain reaction (PCR) reported by California long-term acute care (LTAC) hospitals. ",
+      "format": "CSV",
+      "hash": "e55be78f5dad20296c3616e4c2e1e6d9",
+      "name": "cdis-in-ltacs-2015",
+      "path": "cdis-in-ltacs-2015.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string"
+          },
+          {
+            "name": "State",
+            "type": "string"
+          },
+          {
+            "name": "HAI",
+            "type": "string"
+          },
+          {
+            "name": "Facility_ID1",
+            "type": "string"
+          },
+          {
+            "name": "Facility_Name1",
+            "type": "string"
+          },
+          {
+            "name": "County",
+            "type": "string"
+          },
+          {
+            "name": "Hospital_Onset_Cases",
+            "type": "string"
+          },
+          {
+            "name": "Patient_Days",
+            "type": "string"
+          },
+          {
+            "name": "Hospital_Onset_Rate",
+            "type": "string"
+          },
+          {
+            "name": "CI_95_Lower_Limit",
+            "type": "string"
+          },
+          {
+            "name": "CI_95_Upper_Limit",
+            "type": "string"
+          },
+          {
+            "name": "PCR",
+            "type": "string"
+          },
+          {
+            "name": "Notes",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/430e3d9b-5129-4b2b-b466-c7819894817e/resource/fec81dc5-de44-406e-8a8b-ca74dc0f0dc3/download/clostridium-difficile-infections-cdi-in-long-term-acute-care-2015.csv",
+          "title": "CDIs in LTACs, 2015"
+        }
+      ],
+      "title": "CDIs in LTACs, 2015"
+    },
+    {
+      "description": "This table shows the incidence rates of hospital onset Clostridium difficile infections (CDI) and use of polymerase chain reaction (PCR) reported by California long-term acute care (LTAC) hospitals.",
+      "format": "CSV",
+      "hash": "9873ee4b5b04098413dcbb570328c31a",
+      "name": "cdis-in-ltacs-2014",
+      "path": "cdis-in-ltacs-2014.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string"
+          },
+          {
+            "name": "State",
+            "type": "string"
+          },
+          {
+            "name": "HAI",
+            "type": "string"
+          },
+          {
+            "name": "Facility_ID1",
+            "type": "string"
+          },
+          {
+            "name": "Facility_Name1",
+            "type": "string"
+          },
+          {
+            "name": "County",
+            "type": "string"
+          },
+          {
+            "name": "Hospital_Onset_Cases",
+            "type": "string"
+          },
+          {
+            "name": "Patient_Days",
+            "type": "string"
+          },
+          {
+            "name": "Hospital_Onset_Rate",
+            "type": "string"
+          },
+          {
+            "name": "CI_95_Lower_Limit",
+            "type": "string"
+          },
+          {
+            "name": "CI_95_Upper_Limit",
+            "type": "string"
+          },
+          {
+            "name": "PCR",
+            "type": "string"
+          },
+          {
+            "name": "Notes",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/430e3d9b-5129-4b2b-b466-c7819894817e/resource/c1d8ad30-fcf3-4138-8d78-688266786a02/download/clostridium-difficile-infections-cdi-in-long-term-acute-care-2014.csv",
+          "title": "CDIs in LTACs, 2014"
+        }
+      ],
+      "title": "CDIs in LTACs, 2014"
+    },
+    {
+      "description": "This table shows the incidence rates of hospital onset Clostridium difficile infections (CDI) and use of polymerase chain reaction (PCR) reported by California long-term acute care (LTAC) hospitals. ",
+      "format": "CSV",
+      "hash": "dd94c6b74d7f1182d3152dfb4c18d980",
+      "name": "cdis-in-ltacs-2013",
+      "path": "cdis-in-ltacs-2013.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string"
+          },
+          {
+            "name": "State",
+            "type": "string"
+          },
+          {
+            "name": "HAI",
+            "type": "string"
+          },
+          {
+            "name": "Facility_Name",
+            "type": "string"
+          },
+          {
+            "name": "FACID",
+            "type": "string"
+          },
+          {
+            "name": "County",
+            "type": "string"
+          },
+          {
+            "name": "Hospital_Onset_Cases",
+            "type": "string"
+          },
+          {
+            "name": "Patient_Days",
+            "type": "string"
+          },
+          {
+            "name": "Hospital_Onset_Rate",
+            "type": "string"
+          },
+          {
+            "name": "95%_Confidence_Interval_Lower_Limit",
+            "type": "string"
+          },
+          {
+            "name": "95%_Confidence_Interval_Upper_Limit",
+            "type": "string"
+          },
+          {
+            "name": "PCR",
+            "type": "string"
+          },
+          {
+            "name": "Notes",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/430e3d9b-5129-4b2b-b466-c7819894817e/resource/e2b4e292-af57-4621-beaf-6f5632703abe/download/clostridium-difficile-infections-cdi-in-long-term-acute-care-2013.csv",
+          "title": "CDIs in LTACs, 2013"
+        }
+      ],
+      "title": "CDIs in LTACs, 2013"
+    },
+    {
+      "description": "Data Dictionary for CDIs in LTACs",
+      "format": "XLS",
+      "hash": "40ef0e13914faa2e06fe62bb4ac19917",
+      "name": "cdis-in-ltacs-data-dictionary-2013-2015",
+      "path": "cdis-in-ltacs-data-dictionary-2013-2015.xls",
+      "schema": {
+        "fields": [
+          {
+            "name": "Field",
+            "type": "string"
+          },
+          {
+            "name": "Format",
+            "type": "string"
+          },
+          {
+            "name": "Definition",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/430e3d9b-5129-4b2b-b466-c7819894817e/resource/8c49c8f8-f1a9-4f7e-95c3-f716776bc518/download/clostridiumdifficileinfectionscdiinlong-termacutecare-dd.xlsx",
+          "title": "CDIs in LTACs-Data Dictionary 2013-2015"
+        }
+      ],
+      "title": "CDIs in LTACs-Data Dictionary 2013-2015"
+    }
+  ],
+  "secondary_sources": "",
+  "sources": [
+    {
+      "name": "Center for Health Care Quality/Healthcare-Associated Infections Program/Epidemiology Unit "
+    }
+  ],
+  "temporal_coverage": "2013-present",
+  "title": "Clostridioides difficile infections (CDI) in California Hospitals"
+}
